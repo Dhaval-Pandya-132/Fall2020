@@ -1,4 +1,4 @@
-package com.assignment1;
+package com.assignment1.Question2;
 
 public class student {
 

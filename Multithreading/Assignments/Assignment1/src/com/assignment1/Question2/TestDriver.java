@@ -1,6 +1,6 @@
-package com.assignment1;
+package com.assignment1.Question2;
 
-import java.util.Random;
+import com.assignment1.Question2.student;
 
 public class TestDriver {
 
@@ -10,7 +10,7 @@ public class TestDriver {
         int min=70;
         for(int i = 1 ; i <=20 ;i++)
         {
-            student  stud = new student(i);
+            student stud = new student(i);
             stud.setId(i);
             stud.setMidterm((int)(Math.random() * (max - min + 1) + min));
             stud.setFinalExam((int)(Math.random() * (max - min + 1) + min));
