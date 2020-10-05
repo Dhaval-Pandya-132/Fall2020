@@ -8,4 +8,12 @@
 *.ear
 *.zip
 *.tar.gz
-*.rar`
+*.rar
+
+.idea
+out/
+/Multithreading/Assignments/.idea/
+/Multithreading/Assignments/Assignment2/out/
+/Multithreading/Assignments/Assignment2/.idea/
+/Multithreading/Assignments/Assignment2/out/
+/Multithreading/Assignments/Assignment2/.idea/
