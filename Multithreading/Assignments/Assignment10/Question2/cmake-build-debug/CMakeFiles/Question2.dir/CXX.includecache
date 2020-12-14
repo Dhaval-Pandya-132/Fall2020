@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment10/Question2/main.cpp
+iostream
+-
+iostream
+-
+condition_variable
+-
+mutex
+-
+thread
+-
+

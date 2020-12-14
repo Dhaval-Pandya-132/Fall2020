@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/Question3.h
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/Question5.h
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/Question9.h
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/main.cpp
+iostream
+-
+question2.h
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/question2.h
+Question3.h
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/Question3.h
+Question5.h
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/Question5.h
+iostream
+-
+swap.h
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/swap.h
+Question9.h
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/Question9.h
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/question2.h
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/swap.h
+

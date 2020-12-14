@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment9/com_multithreding_Question10_HelloWorld/main.c
+stdio.h
+-
+

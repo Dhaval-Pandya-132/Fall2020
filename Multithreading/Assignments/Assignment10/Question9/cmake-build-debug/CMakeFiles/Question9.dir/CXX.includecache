@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment10/Question9/main.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+

@@ -14,7 +14,7 @@ public class GraderThread implements Runnable {
 
         try {
             while (true) {
-                Thread.sleep(20000);
+                Thread.sleep(2000);
                 this.ut.readDatafromMap();
             }
 

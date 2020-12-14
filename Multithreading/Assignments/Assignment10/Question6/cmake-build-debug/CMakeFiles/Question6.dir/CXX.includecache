@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment10/Question6/Student.h
+string
+-
+
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment10/Question6/main.cpp
+iostream
+-
+Student.h
+/Users/mrcricket/Desktop/Fall2020/Multithreading/Assignments/Assignment10/Question6/Student.h
+cstdlib
+-
+ctime
+-
+thread
+-
+fstream
+-
+map
+-
+chrono
+-
+

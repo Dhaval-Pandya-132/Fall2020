@@ -7,6 +7,7 @@ public class GradeDriver {
 
     public static void main(String args[]) throws InterruptedException {
 
+        long startTime = System.currentTimeMillis();
         Utils ut = new Utils();
 
         try {
@@ -16,7 +17,7 @@ public class GradeDriver {
         }
         Thread graderThread = new Thread(new GraderThread(ut), "GraderThread");
         graderThread.start();
-        for (int i = 1; i <= 40; i++) {
+        for (int i = 1; i <= 150; i++) {
 
             Student st = new Student(ut);
             Thread studentThread = new Thread(st, "Thread-" + st.getId());
@@ -29,7 +30,9 @@ public class GradeDriver {
            // graderThread.join();
             System.out.println(st);
         }
-
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
+        System.out.println("Execution Time : "+ elapsedTime + " ms");
     }
 
 

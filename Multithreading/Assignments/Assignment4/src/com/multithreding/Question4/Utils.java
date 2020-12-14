@@ -71,7 +71,7 @@ public class Utils {
 //                this.notifyAll();
             con.signalAll();
 //                this.wait(5000);
-            con.await(5000, TimeUnit.MILLISECONDS);
+            con.await(1000, TimeUnit.MILLISECONDS);
             return this.readDataFromFile("Grade.txt");
         } finally {
             lock.unlock();
@@ -87,9 +87,9 @@ public class Utils {
 //        synchronized (this) {
         lock.lock();
         try {
-            if (processedStudentList.size() == 40) {
+            if (processedStudentList.size() == 150) {
 //                this.wait(10000);
-                con.await(10000, TimeUnit.MILLISECONDS);
+                con.await(2000, TimeUnit.MILLISECONDS);
 //                this.notifyAll();
                 con.signalAll();
                 Thread.currentThread().stop();
@@ -117,7 +117,7 @@ public class Utils {
                     }
                 } else {
 //                    this.wait(2000);
-                    con.await(2000, TimeUnit.MILLISECONDS);
+                    con.await(1000, TimeUnit.MILLISECONDS);
 //                    this.notifyAll();
                     con.signalAll();
                 }
@@ -166,7 +166,7 @@ public class Utils {
                         return data;
                     } else {
 //                        this.wait(3000);
-                        con.await(3000, TimeUnit.MILLISECONDS);
+                        con.await(1000, TimeUnit.MILLISECONDS);
 //                        this.notifyAll();
                         con.signalAll();
                     }
